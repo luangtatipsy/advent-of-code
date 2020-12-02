@@ -1,6 +1,6 @@
 from itertools import combinations
 
-from inputs.d1 import NUMBERS as numbers
+from inputs.d01 import NUMBERS as numbers
 
 pair_of_numbers = combinations(numbers, 2)
 

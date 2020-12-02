@@ -2,7 +2,7 @@ from functools import reduce
 from itertools import combinations
 from operator import mul
 
-from inputs.day_1 import NUMBERS as numbers
+from inputs.d01 import NUMBERS as numbers
 
 sequences_of_numbers = combinations(numbers, 3)
 
