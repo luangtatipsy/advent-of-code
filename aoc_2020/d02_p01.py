@@ -1,10 +1,5 @@
 from inputs.d02 import PASSWORDS as passwords
 
-# passwords = """
-#     1-3 a: abcde
-#     1-3 b: cdefg
-#     2-9 c: ccccccccc
-# """
 passwords = [line.strip() for line in passwords.splitlines(False) if line.strip() != ""]
 
 
