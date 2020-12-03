@@ -38,3 +38,6 @@ This repository contains all my solutions for this event. The purpose of creatin
 - __2020-12-02__: Finished the first-released 2 puzzles of 2020; [[Day 1]](https://adventofcode.com/2020/day/1), [[Day 2]](https://adventofcode.com/2020/day/2)
 - __2020-12-03__: Finished the Day 3 puzzle of 2020; [[Day 3]](https://adventofcode.com/2020/day/3)
 - __2020-12-03__: Reorganized repository 🎉
+- __2020-12-03__: Added test case for each puzzle
+- __2020-12-03__: Set up Github Actions workflows for running tests
+
