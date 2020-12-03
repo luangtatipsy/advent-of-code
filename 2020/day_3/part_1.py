@@ -1,6 +1,5 @@
-from inputs.d03 import MAP as square_map
-
-square_map = [row.strip() for row in square_map.splitlines(False) if row.strip() != '']
+with open('input.txt') as f:
+    square_map = [row.strip() for row in f.read().splitlines(False) if row.strip() != '']
 
 x_offset = 0
 encountered_count = 0

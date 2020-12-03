@@ -1,6 +1,3 @@
-from inputs.d03 import MAP as square_map
-
-
 def encounter_tree_count(square_map, right, down):
     x_offset = 0
     encountered_count = 0
@@ -24,8 +21,9 @@ STEPS = [
     (1, 2)
 ]
 
+with open('input.txt') as f:
+    square_map = [row.strip() for row in f.read().splitlines(False) if row.strip() != '']
 
-square_map = [row.strip() for row in square_map.splitlines(False) if row.strip() != '']
 multiplication = 1
 
 for right, down in STEPS:

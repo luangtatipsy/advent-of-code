@@ -1,6 +1,5 @@
-from inputs.d02 import PASSWORDS as passwords
-
-passwords = [line.strip() for line in passwords.splitlines(False) if line.strip() != ""]
+with open("input.txt") as f:
+    passwords = [line.strip() for line in f.read().splitlines(False) if line.strip() != ""]
 
 
 def is_valid(first_position, second_position, character, password):

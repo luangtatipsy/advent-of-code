@@ -2,7 +2,8 @@ from functools import reduce
 from itertools import combinations
 from operator import mul
 
-from inputs.d01 import NUMBERS as numbers
+with open("input.txt") as f:
+    numbers = [int(number) for number in f.read().splitlines(False) if number.strip() != '']
 
 sequences_of_numbers = combinations(numbers, 3)
 
