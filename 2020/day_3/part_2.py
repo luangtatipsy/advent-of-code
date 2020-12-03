@@ -12,21 +12,26 @@ def encounter_tree_count(square_map, right, down):
     return encountered_count
 
 
-# Direction - (RIGHT, DOWN)
-STEPS = [
-    (1, 1),
-    (3, 1),
-    (5, 1),
-    (7, 1),
-    (1, 2)
-]
+def main(square_map):
+    # Direction - (RIGHT, DOWN)
+    STEPS = [
+        (1, 1),
+        (3, 1),
+        (5, 1),
+        (7, 1),
+        (1, 2)
+    ]
 
-with open('input.txt') as f:
-    square_map = [row.strip() for row in f.read().splitlines(False) if row.strip() != '']
+    multiplication = 1
 
-multiplication = 1
+    for right, down in STEPS:
+        multiplication *= encounter_tree_count(square_map, right, down)
 
-for right, down in STEPS:
-    multiplication *= encounter_tree_count(square_map, right, down)
+    return multiplication
 
-print(multiplication)
+if __name__ == "__main__":
+    with open('input.txt') as f:
+        square_map = [row.strip() for row in f.read().splitlines(False) if row.strip() != '']
+
+    multiplication = main(square_map)
+    print(multiplication)
