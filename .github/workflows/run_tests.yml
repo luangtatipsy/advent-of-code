@@ -22,9 +22,9 @@ jobs:
     - name: Test puzzle; 2020 - Day 1
       run: |
         pytest 2020/day_1
-    - name: Test puzzle; 2020 - Day 1
+    - name: Test puzzle; 2020 - Day 2
       run: |
-        pytest 2020/day_1
+        pytest 2020/day_2
     - name: Test puzzle; 2020 - Day 3
       run: |
         pytest 2020/day_3
