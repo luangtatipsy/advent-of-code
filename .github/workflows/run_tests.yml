@@ -19,18 +19,6 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-    - name: Test puzzle; 2020 - Day 1
+    - name: Test puzzles of 2020
       run: |
-        pytest 2020/day_1
-    - name: Test puzzle; 2020 - Day 2
-      run: |
-        pytest 2020/day_2
-    - name: Test puzzle; 2020 - Day 3
-      run: |
-        pytest 2020/day_3
-    - name: Test puzzle; 2020 - Day 4
-      run: |
-        pytest 2020/day_4
-    - name: Test puzzle; 2020 - Day 5
-      run: |
-        pytest 2020/day_5
+        pytest 2020/tests

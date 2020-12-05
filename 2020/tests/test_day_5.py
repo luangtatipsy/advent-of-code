@@ -1,4 +1,4 @@
-from part_1 import extract_seat_id as part_1_solution
+from day_5.part_1 import extract_seat_id as part_1_solution
 
 # Part 2 solution does not change core program logic then, it's not necessary to test it
 

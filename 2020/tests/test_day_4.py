@@ -1,7 +1,7 @@
-from part_1 import main as part_1_solution
-from part_2 import is_valid_passport
-from part_2 import main as part_2_solution
-from part_2 import (
+from day_4.part_1 import main as part_1_solution
+from day_4.part_2 import is_valid_passport
+from day_4.part_2 import main as part_2_solution
+from day_4.part_2 import (
     validate_byr,
     validate_ecl,
     validate_eyr,
