@@ -22,8 +22,6 @@ jobs:
     - name: Generate .coveragerc
       run: |
         echo -e "[report]\n\nexclude_lines =\n\tif __name__ == .__main__.:" >> .coveragerc
-        echo "================================================================="
-        cat .coveragerc
     - name: Test puzzles of 2020
       run: |
         pytest --cov=./2020 --cov-report=xml 2020/tests
