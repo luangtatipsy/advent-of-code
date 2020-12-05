@@ -28,3 +28,6 @@ jobs:
     - name: Test puzzle; 2020 - Day 3
       run: |
         pytest 2020/day_3
+    - name: Test puzzle; 2020 - Day 4
+      run: |
+        pytest 2020/day_4
