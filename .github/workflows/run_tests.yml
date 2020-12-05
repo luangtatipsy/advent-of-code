@@ -21,7 +21,7 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Generate .coveragerc
       run: |
-        echo "[report]\n\nexclude_lines =\n\tif __name__ == .__main__.:"
+        echo "[report]\n\nexclude_lines =\n\tif __name__ == .__main__.:" >> .coveragerc
     - name: Test puzzles of 2020
       run: |
         pytest --cov=./2020 --cov-report=xml 2020/tests
@@ -29,6 +29,8 @@ jobs:
       uses: codecov/codecov-action@v1
       with:
         file: ./coverage.xml # optional
+        directory: ./coverage/reports/ # optional
         flags: unittests # optional
         fail_ci_if_error: true # optional (default = false)
+        path_to_write_report: ./coverage/codecov_report.txt  # optional
         verbose: true # optional (default = false)
