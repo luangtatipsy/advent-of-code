@@ -45,3 +45,7 @@ This repository contains all my solutions for [Advent of Code](https://adventofc
 - __2020-12-05__: Finished the Day 5 puzzle of 2020; [[Day 5]](https://adventofcode.com/2020/day/5)
 - __2020-12-06__: Set up code coverage tool 💯
 - __2020-12-06__ : Added repository badges 🎖
+
+
+## License
+This repository is distributed under [MIT License](https://github.com/luangtatipsy/advent-of-code/blob/master/LICENSE)
