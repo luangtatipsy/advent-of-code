@@ -32,5 +32,4 @@ jobs:
         directory: ./coverage/reports/ # optional
         flags: unittests # optional
         fail_ci_if_error: true # optional (default = false)
-        path_to_write_report: ./coverage/codecov_report.txt  # optional
         verbose: true # optional (default = false)
