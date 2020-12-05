@@ -11,7 +11,7 @@ This repository contains all my solutions for this event. The purpose of creatin
 | [Day 2](https://adventofcode.com/2020/day/2) |  🌟 🌟 |
 | [Day 3](https://adventofcode.com/2020/day/3) |  🌟 🌟 |
 | [Day 4](https://adventofcode.com/2020/day/4) |  🌟 🌟 |
-| Day 5 |      |
+| [Day 5](https://adventofcode.com/2020/day/5) |  🌟 🌟 |
 | Day 6 |      |
 | Day 7 |      |
 | Day 8 |      |
@@ -41,4 +41,5 @@ This repository contains all my solutions for this event. The purpose of creatin
 - __2020-12-03__: Added test case for each puzzle
 - __2020-12-03__: Set up Github Actions workflows for running tests
 - __2020-12-05__: Finished the Day 4 puzzle of 2020; [[Day 4]](https://adventofcode.com/2020/day/4)
+- __2020-12-05__: Finished the Day 5 puzzle of 2020; [[Day 5]](https://adventofcode.com/2020/day/5)
 
