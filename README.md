@@ -1,6 +1,6 @@
 # Advent of Code Repository
 
-![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/luangtatipsy/advent-of-code/Run%20Python%20tests/master?style=for-the-badge) &nbsp; [![codecov](https://img.shields.io/codecov/c/gh/luangtatipsy/advent-of-code?flag=unittests&style=for-the-badge)](https://codecov.io/gh/luangtatipsy/advent-of-code) &nbsp; ![GitHub](https://img.shields.io/badge/code%20formatter-black-lightgrey?style=for-the-badge) &nbsp; ![GitHub](https://img.shields.io/github/license/luangtatipsy/advent-of-code?style=for-the-badge)
+![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/luangtatipsy/advent-of-code/Run%20Python%20tests/master?style=for-the-badge&logo=github) &nbsp; [![codecov](https://img.shields.io/codecov/c/gh/luangtatipsy/advent-of-code?flag=unittests&style=for-the-badge&logo=codecov)](https://codecov.io/gh/luangtatipsy/advent-of-code) &nbsp; ![GitHub](https://img.shields.io/badge/code%20formatter-black-lightgrey?style=for-the-badge) &nbsp; ![GitHub](https://img.shields.io/github/license/luangtatipsy/advent-of-code?style=for-the-badge)
 
 ## Introduction
 This repository contains all my solutions for [Advent of Code](https://adventofcode.com/). The purpose of creating the repo is to store all of the solutions being done in a single place.
