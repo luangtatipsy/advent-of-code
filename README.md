@@ -1,8 +1,9 @@
 # Advent of Code Repository
-Please visit: [Advent of Code](https://adventofcode.com/)
+
+![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/luangtatipsy/advent-of-code/Run%20Python%20tests/master?style=for-the-badge&logo=github) &nbsp; [![codecov](https://img.shields.io/codecov/c/gh/luangtatipsy/advent-of-code?flag=unittests&style=for-the-badge&logo=codecov)](https://codecov.io/gh/luangtatipsy/advent-of-code) &nbsp; ![GitHub](https://img.shields.io/badge/code%20formatter-black-lightgrey?style=for-the-badge) &nbsp; ![GitHub](https://img.shields.io/github/license/luangtatipsy/advent-of-code?style=for-the-badge)
 
 ## Introduction
-This repository contains all my solutions for this event. The purpose of creating the repo is to store all of the solutions being done in a single place.
+This repository contains all my solutions for [Advent of Code](https://adventofcode.com/). The purpose of creating the repo is to store all of the solutions being done in a single place.
 
 ## Progression
 |       | 2020 |
@@ -42,4 +43,9 @@ This repository contains all my solutions for this event. The purpose of creatin
 - __2020-12-03__: Set up Github Actions workflows for running tests
 - __2020-12-05__: Finished the Day 4 puzzle of 2020; [[Day 4]](https://adventofcode.com/2020/day/4)
 - __2020-12-05__: Finished the Day 5 puzzle of 2020; [[Day 5]](https://adventofcode.com/2020/day/5)
+- __2020-12-06__: Set up code coverage tool 💯
+- __2020-12-06__ : Added repository badges 🎖
 
+
+## License
+This repository is distributed under [MIT License](https://github.com/luangtatipsy/advent-of-code/blob/master/LICENSE)
