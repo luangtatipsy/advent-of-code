@@ -14,7 +14,7 @@ This repository contains all my solutions for [Advent of Code](https://adventofc
 | [Day 4](https://adventofcode.com/2020/day/4) |  🌟 🌟 |
 | [Day 5](https://adventofcode.com/2020/day/5) |  🌟 🌟 |
 | [Day 6](https://adventofcode.com/2020/day/6) |  🌟 🌟 |
-| Day 7 |      |
+| [Day 7](https://adventofcode.com/2020/day/7) |  🌟 🌟 |
 | Day 8 |      |
 | Day 9 |      |
 | Day 10 |      |
@@ -46,6 +46,7 @@ This repository contains all my solutions for [Advent of Code](https://adventofc
 - __2020-12-06__: Set up code coverage tool 💯
 - __2020-12-06__: Added repository badges 🎖
 - __2020-12-06__: Finished the Day 6 puzzle of 2020; [[Day 6]](https://adventofcode.com/2020/day/6)
+- __2020-12-07__: Finished the Day 7 puzzle of 2020; [[Day 6]](https://adventofcode.com/2020/day/7) 🔥🔥
 
 
 ## License
