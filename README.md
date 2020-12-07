@@ -46,7 +46,7 @@ This repository contains all my solutions for [Advent of Code](https://adventofc
 - __2020-12-06__: Set up code coverage tool 💯
 - __2020-12-06__: Added repository badges 🎖
 - __2020-12-06__: Finished the Day 6 puzzle of 2020; [[Day 6]](https://adventofcode.com/2020/day/6)
-- __2020-12-07__: Finished the Day 7 puzzle of 2020; [[Day 6]](https://adventofcode.com/2020/day/7) 🔥🔥
+- __2020-12-07__: Finished the Day 7 puzzle of 2020; [[Day 7]](https://adventofcode.com/2020/day/7) 🔥🔥
 
 
 ## License
