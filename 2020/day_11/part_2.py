@@ -64,7 +64,7 @@ def main(seat_layout):
         if state == seat_layout:
             break
         else:
-            state = seat_layout.copy()
+            state = seat_layout
             seat_layout = sit_or_stand(seat_layout, activity="sit")
             seat_layout = sit_or_stand(seat_layout, activity="stand")
 
