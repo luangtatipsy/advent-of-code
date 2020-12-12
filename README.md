@@ -19,7 +19,7 @@ This repository contains all my solutions for [Advent of Code](https://adventofc
 | [Day 9](https://adventofcode.com/2020/day/9) |  🌟 🌟 |
 | [Day 10](https://adventofcode.com/2020/day/10) |  🌟 🌟 |
 | [Day 11](https://adventofcode.com/2020/day/11) |  🌟 🌟 |
-| Day 12 |      |
+| [Day 12](https://adventofcode.com/2020/day/12) |  🌟 🌟 |
 | Day 13 |      |
 | Day 14 |      |
 | Day 15 |      |
@@ -51,6 +51,7 @@ This repository contains all my solutions for [Advent of Code](https://adventofc
 - __2020-12-09__: Finished the Day 9 puzzle of 2020; [[Day 9]](https://adventofcode.com/2020/day/9)
 - __2020-12-10__: Finished the Day 10 puzzle of 2020; [[Day 10]](https://adventofcode.com/2020/day/10)
 - __2020-12-12__: Finished the Day 11 puzzle of 2020; [[Day 11]](https://adventofcode.com/2020/day/11) 🔥🔥🔥🔥
+- __2020-12-13__: Finished the Day 12 puzzle of 2020; [[Day 12]](https://adventofcode.com/2020/day/12) 🔥🔥🔥
 
 
 ## License
