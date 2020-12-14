@@ -21,7 +21,7 @@ This repository contains all my solutions for [Advent of Code](https://adventofc
 | [Day 11](https://adventofcode.com/2020/day/11) |  🌟 🌟 |
 | [Day 12](https://adventofcode.com/2020/day/12) |  🌟 🌟 |
 | [Day 13](https://adventofcode.com/2020/day/13) |  🌟 🌟 |
-| Day 14 |      |
+| [Day 14](https://adventofcode.com/2020/day/14) |   |
 | Day 15 |      |
 | Day 16 |      |
 | Day 17 |      |
