@@ -54,6 +54,7 @@ This repository contains all my solutions for [Advent of Code](https://adventofc
 - __2020-12-13__: Finished the Day 12 puzzle of 2020; [[Day 12]](https://adventofcode.com/2020/day/12) 🔥🔥🔥
 - __2020-12-13__: Finished the Day 13 puzzle of 2020; [[Day 13]](https://adventofcode.com/2020/day/13) 🔥🔥🔥
 - __2020-12-16__: Finished the Day 15 puzzle of 2020; [[Day 15]](https://adventofcode.com/2020/day/15)
+- __2020-12-18__: Finished the Day 16 Part 1 puzzle of 2020; [[Day 16]](https://adventofcode.com/2020/day/16)
 
 
 ## License
