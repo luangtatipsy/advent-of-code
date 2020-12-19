@@ -17,7 +17,6 @@ def custom_add_multiply(expressions):
                 + expressions[add_idx + 2 :]
             )
         else:
-            print(expressions)
             multiply_idx = expressions.index("*")
             left_exp, right_exp = (
                 expressions[multiply_idx - 1],
@@ -64,13 +63,6 @@ def main(equations):
 if __name__ == "__main__":
     with open("input.txt") as f:
         equations = [equation for equation in f.read().splitlines()]
-
-    equations = [
-        "2 * 3 + (4 * 5)",
-        # "5 + (8 * 3 + 9 + 3 * 4 * 3)",
-        # "5 * 9 * (7 * 3 * 3 + 9 * 3 + (8 + 6 * 4))",
-        # "((2 + 4 * 9) * (6 + 9 * 8 + 6) + 6) + 2 + 4 * 2",
-    ]
 
     answer = main(equations)
     print(answer)
