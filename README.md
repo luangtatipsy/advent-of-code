@@ -25,7 +25,7 @@ This repository contains all my solutions for [Advent of Code](https://adventofc
 | [Day 15](https://adventofcode.com/2020/day/15) |  🌟 🌟 |
 | [Day 16](https://adventofcode.com/2020/day/16) |  🌟  |
 | [Day 17](https://adventofcode.com/2020/day/17) |   |
-| Day 18 |      |
+| [Day 18](https://adventofcode.com/2020/day/18) |  🌟 🌟 |
 | Day 19 |      |
 | Day 20 |      |
 | Day 21 |      |
@@ -55,6 +55,7 @@ This repository contains all my solutions for [Advent of Code](https://adventofc
 - __2020-12-13__: Finished the Day 13 puzzle of 2020; [[Day 13]](https://adventofcode.com/2020/day/13) 🔥🔥🔥
 - __2020-12-16__: Finished the Day 15 puzzle of 2020; [[Day 15]](https://adventofcode.com/2020/day/15)
 - __2020-12-18__: Finished the Day 16 Part 1 puzzle of 2020; [[Day 16]](https://adventofcode.com/2020/day/16)
+- __2020-12-19__: Finished the Day 18 puzzle of 2020; [[Day 18]](https://adventofcode.com/2020/day/18) 🔥🔥
 
 
 ## License
