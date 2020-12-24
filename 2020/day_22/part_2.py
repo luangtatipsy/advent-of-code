@@ -1,65 +1,31 @@
-from collections import deque
+def play(p1_deck, p2_deck, visited):
+    while len(p1_deck) > 0 and len(p2_deck) > 0:
+        if (tuple(p1_deck), tuple(p2_deck)) in visited:
+            return 1, p1_deck
 
+        visited.add((tuple(p1_deck), tuple(p2_deck)))
 
-class Player:
-    def __init__(self, deck):
-        self.deck = deque(deck)
+        p1_card = p1_deck.pop(0)
+        p2_card = p2_deck.pop(0)
 
-    def draw(self):
-        return self.deck.popleft()
+        if len(p1_deck) >= p1_card and len(p2_deck) >= p2_card:
+            winner, _ = play(p1_deck[:p1_card], p2_deck[:p2_card], set())
+        else:
+            winner = 1 if p1_card > p2_card else 2
 
-    def collect(self, cards):
-        self.deck.extend(cards)
+        if winner == 1:
+            p1_deck.extend([p1_card, p2_card])
+        else:
+            p2_deck.extend([p2_card, p1_card])
 
-    def __str__(self):
-        return f"My cards are {self.deck}"
-
-
-class Game:
-    def __init__(self, p1, p2):
-        self.p1 = p1
-        self.p2 = p2
-        self.winner = None
-
-    def start(self):
-        _round = 1
-
-        while len(self.p1.deck) > 0 and len(self.p2.deck) > 0:
-            print(f"-- Round {_round} --")
-            print(self.p1)
-            print(self.p2)
-            print()
-            self.winner = self.play()
-
-            _round += 1
-
-        return self.winner
-
-    def play(self):
-        winner = None
-        p1_card = self.p1.draw()
-        p2_card = self.p2.draw()
-
-        if p1_card > p2_card:
-            self.p1.collect([p1_card, p2_card])
-            winner = self.p1
-
-        elif p1_card < p2_card:
-            self.p2.collect([p2_card, p1_card])
-            winner = self.p2
-
-        return winner
+    return (1, p1_deck) if len(p1_deck) > 2 else (2, p2_deck)
 
 
 def main(p1_deck, p2_deck):
-    p1 = Player(p1_deck)
-    p2 = Player(p2_deck)
-    game = Game(p1, p2)
-
-    winner = game.start()
+    _, deck = play(p1_deck, p2_deck, set())
 
     score = 0
-    for card, order in zip(winner.deck, range(len(winner.deck), 0, -1)):
+    for card, order in zip(deck, range(len(deck), 0, -1)):
         score += card * order
 
     return score
@@ -71,26 +37,6 @@ if __name__ == "__main__":
             [int(card) for card in deck.splitlines() if card.strip().isdigit()]
             for deck in f.read().split("\n\n")
         ]
-
-    decks = """
-    Player 1:
-    9
-    2
-    6
-    3
-    1
-
-    Player 2:
-    5
-    8
-    4
-    7
-    10
-    """
-    p1_deck, p2_deck = [
-        [int(card) for card in deck.splitlines() if card.strip().isdigit()]
-        for deck in decks.split("\n\n")
-    ]
 
     score = main(p1_deck, p2_deck)
     print(score)
