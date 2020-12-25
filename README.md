@@ -32,7 +32,7 @@ This repository contains all my solutions for [Advent of Code](https://adventofc
 | [Day 22](https://adventofcode.com/2020/day/22) |  🌟 🌟 |
 | [Day 23](https://adventofcode.com/2020/day/23) |   |
 | [Day 24](https://adventofcode.com/2020/day/24) |   |
-| Day 25 |      |
+| [Day 25](https://adventofcode.com/2020/day/25) |   |
 
 
 ## Milestones
