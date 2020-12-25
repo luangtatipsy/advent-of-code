@@ -23,7 +23,7 @@ jobs:
           echo -e "[report]\n\nexclude_lines =\n\tif __name__ == .__main__.:" >> .coveragerc
       - name: Test puzzles of 2020
         run: |
-          pytest --cov=./aoc_{2019,2020} --cov-report=xml tests
+          pytest --cov=./aoc_{2019,2020} --cov-report=xml tests/
       - name: Upload 2020 coverage to Codecov
         uses: codecov/codecov-action@v1
         with:
