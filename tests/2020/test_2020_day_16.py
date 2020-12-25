@@ -1,11 +1,7 @@
-from day_16.part_1 import (
-    main as part_1_solution,
-    extract_numbers,
-    extract_range,
-    extract,
-)
+from aoc_2020.day_16.part_1 import extract, extract_numbers, extract_range
+from aoc_2020.day_16.part_1 import main as part_1_solution
 
-# from day_16.part_2 import main as part_2_solution
+# from aoc_2020.day_16.part_2 import main as part_2_solution
 
 notes = """
 class: 1-3 or 5-7

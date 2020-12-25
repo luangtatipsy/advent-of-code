@@ -1,7 +1,7 @@
-from day_4.part_1 import main as part_1_solution
-from day_4.part_2 import is_valid_passport
-from day_4.part_2 import main as part_2_solution
-from day_4.part_2 import (
+from aoc_2020.day_4.part_1 import main as part_1_solution
+from aoc_2020.day_4.part_2 import is_valid_passport
+from aoc_2020.day_4.part_2 import main as part_2_solution
+from aoc_2020.day_4.part_2 import (
     validate_byr,
     validate_ecl,
     validate_eyr,

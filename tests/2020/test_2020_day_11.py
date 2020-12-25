@@ -1,8 +1,8 @@
-from day_11.part_1 import look_around
-from day_11.part_1 import main as part_1_solution
-from day_11.part_1 import sit_or_stand
-from day_11.part_2 import look_around as look_around_part_2
-from day_11.part_2 import main as part_2_solution
+from aoc_2020.day_11.part_1 import look_around
+from aoc_2020.day_11.part_1 import main as part_1_solution
+from aoc_2020.day_11.part_1 import sit_or_stand
+from aoc_2020.day_11.part_2 import look_around as look_around_part_2
+from aoc_2020.day_11.part_2 import main as part_2_solution
 
 seat_layout = """
 L.LL.LL.LL

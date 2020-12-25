@@ -1,8 +1,8 @@
-from day_18.part_1 import calculate, extract
-from day_18.part_1 import main as part_1_solution
-from day_18.part_2 import calculate as calculate_part_2
-from day_18.part_2 import custom_add_multiply
-from day_18.part_2 import main as part_2_solution
+from aoc_2020.day_18.part_1 import calculate, extract
+from aoc_2020.day_18.part_1 import main as part_1_solution
+from aoc_2020.day_18.part_2 import calculate as calculate_part_2
+from aoc_2020.day_18.part_2 import custom_add_multiply
+from aoc_2020.day_18.part_2 import main as part_2_solution
 
 equations = [
     "1 + (2 * 3) + (4 * (5 + 6))",

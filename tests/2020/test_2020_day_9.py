@@ -1,5 +1,5 @@
-from day_9.part_1 import find_invalid_number as part_1_solution
-from day_9.part_2 import main as part_2_solution
+from aoc_2020.day_9.part_1 import find_invalid_number as part_1_solution
+from aoc_2020.day_9.part_2 import main as part_2_solution
 
 numbers = """
 35

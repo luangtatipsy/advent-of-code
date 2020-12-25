@@ -1,8 +1,8 @@
-from day_8.part_1 import extract
-from day_8.part_1 import main as part_1_solution
-from day_8.part_2 import find_operation_indice, generate
-from day_8.part_2 import main as part_2_solution
-from day_8.part_2 import restructure, switch
+from aoc_2020.day_8.part_1 import extract
+from aoc_2020.day_8.part_1 import main as part_1_solution
+from aoc_2020.day_8.part_2 import find_operation_indice, generate
+from aoc_2020.day_8.part_2 import main as part_2_solution
+from aoc_2020.day_8.part_2 import restructure, switch
 
 instructions = """
 nop +0

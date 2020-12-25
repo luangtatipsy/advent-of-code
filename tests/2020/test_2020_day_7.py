@@ -1,6 +1,6 @@
-from day_7.part_1 import extract
-from day_7.part_1 import main as part_1_solution
-from day_7.part_2 import main as part_2_solution
+from aoc_2020.day_7.part_1 import extract
+from aoc_2020.day_7.part_1 import main as part_1_solution
+from aoc_2020.day_7.part_2 import main as part_2_solution
 
 rules = """
 light red bags contain 1 bright white bag, 2 muted yellow bags.

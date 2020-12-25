@@ -1,5 +1,5 @@
-from day_15.part_1 import main as part_1_solution
-from day_15.part_2 import main as part_2_solution
+from aoc_2020.day_15.part_1 import main as part_1_solution
+from aoc_2020.day_15.part_2 import main as part_2_solution
 
 
 def test_part_1_solution_1():

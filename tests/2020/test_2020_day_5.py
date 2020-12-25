@@ -1,5 +1,5 @@
-from day_5.part_1 import extract_seat_id
-from day_5.part_1 import main as part_1_solution
+from aoc_2020.day_5.part_1 import extract_seat_id
+from aoc_2020.day_5.part_1 import main as part_1_solution
 
 # Part 2 solution does not change core program logic then, it's not necessary to test it
 

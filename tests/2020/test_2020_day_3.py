@@ -1,5 +1,5 @@
-from day_3.part_1 import encounter_tree_count as part_1_solution
-from day_3.part_2 import main as part_2_solution
+from aoc_2020.day_3.part_1 import encounter_tree_count as part_1_solution
+from aoc_2020.day_3.part_2 import main as part_2_solution
 
 square_map = """
     ..##.......

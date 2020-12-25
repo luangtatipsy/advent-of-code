@@ -1,10 +1,10 @@
 from collections import deque
 
-from day_12.part_1 import main as part_1_solution
-from day_12.part_1 import move, rotate
-from day_12.part_2 import main as part_2_solution
-from day_12.part_2 import move_to_waypoint, move_waypoint
-from day_12.part_2 import rotate as rotate_path_2
+from aoc_2020.day_12.part_1 import main as part_1_solution
+from aoc_2020.day_12.part_1 import move, rotate
+from aoc_2020.day_12.part_2 import main as part_2_solution
+from aoc_2020.day_12.part_2 import move_to_waypoint, move_waypoint
+from aoc_2020.day_12.part_2 import rotate as rotate_path_2
 
 nav_instructions = """
 F10

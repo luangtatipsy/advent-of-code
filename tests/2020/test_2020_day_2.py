@@ -1,5 +1,5 @@
-from day_2.part_1 import main as part_1_solution
-from day_2.part_2 import main as part_2_solution
+from aoc_2020.day_2.part_1 import main as part_1_solution
+from aoc_2020.day_2.part_2 import main as part_2_solution
 
 passwords = """
     1-3 a: abcde

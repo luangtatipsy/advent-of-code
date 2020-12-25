@@ -1,6 +1,6 @@
-from day_22.part_1 import main as part_1_solution
-from day_22.part_2 import main as part_2_solution
-from day_22.part_2 import play
+from aoc_2020.day_22.part_1 import main as part_1_solution
+from aoc_2020.day_22.part_2 import main as part_2_solution
+from aoc_2020.day_22.part_2 import play
 
 decks = """
 Player 1:

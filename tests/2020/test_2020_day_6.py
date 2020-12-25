@@ -1,7 +1,7 @@
-from day_6.part_1 import count_survey_for_anyone
-from day_6.part_1 import main as part_1_solution
-from day_6.part_2 import count_survey_for_everyone
-from day_6.part_2 import main as part_2_solution
+from aoc_2020.day_6.part_1 import count_survey_for_anyone
+from aoc_2020.day_6.part_1 import main as part_1_solution
+from aoc_2020.day_6.part_2 import count_survey_for_everyone
+from aoc_2020.day_6.part_2 import main as part_2_solution
 
 surveys = """abc
 

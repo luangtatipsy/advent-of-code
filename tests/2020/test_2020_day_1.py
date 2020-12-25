@@ -1,5 +1,5 @@
-from day_1.part_1 import multiply_expense_report as part_1_solution
-from day_1.part_2 import multiply_expense_report as part_2_solution
+from aoc_2020.day_1.part_1 import multiply_expense_report as part_1_solution
+from aoc_2020.day_1.part_2 import multiply_expense_report as part_2_solution
 
 numbers = [1721, 979, 366, 299, 675, 1456]
 
