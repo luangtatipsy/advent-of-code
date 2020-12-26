@@ -59,6 +59,7 @@ This repository contains all my solutions for [Advent of Code](https://adventofc
 - __2020-12-23__: Finished Day 22 Part 1 puzzle of 2020; [[Day 22]](https://adventofcode.com/2020/day/22)
 - __2020-12-24__: Finished Day 22 Part 2 puzzle of 2020
 - __2020-12-25__: Finished Day 1 puzzle of 2019 and Reorganized repository
+- __2020-12-26__: Finished Day 2 puzzle of 2019
 
 
 
