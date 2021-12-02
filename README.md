@@ -30,7 +30,7 @@ python -m pytest --cache-clear --cov=./aoc_{2019,2020,2021} --cov-report=xml tes
 |        | 2015 | 2016 | 2017 | 2018 | 2019 | 2020 | 2021 | 2022 | 2023 | 2024 | 2025 |
 |------- |------|------|------|------|------|------|------|------|------|------|------|
 | Day 1  |      |      |      |      | 🌟 🌟 | 🌟 🌟 | 🌟 🌟 |      |      |      |      |
-| Day 2  |      |      |      |      | 🌟 🌟 | 🌟 🌟 |      |      |      |      |      |
+| Day 2  |      |      |      |      | 🌟 🌟 | 🌟 🌟 | 🌟 🌟 |      |      |      |      |
 | Day 3  |      |      |      |      |      | 🌟 🌟 |      |      |      |      |      |
 | Day 4  |      |      |      |      |      | 🌟 🌟 |      |      |      |      |      |
 | Day 5  |      |      |      |      |      | 🌟 🌟 |      |      |      |      |      |
@@ -57,7 +57,8 @@ python -m pytest --cache-clear --cov=./aoc_{2019,2020,2021} --cov-report=xml tes
 
 
 ## Milestones
-- __2020-12-01__: Finished Day 1 puzzle of 2021 [[Day 1]](https://adventofcode.com/2021/day/1)
+- __2021-12-02__: Finished Day 2 puzzle of 2021 [[Day 2]](https://adventofcode.com/2021/day/2)
+- __2021-12-01__: Finished Day 1 puzzle of 2021 [[Day 1]](https://adventofcode.com/2021/day/1)
 - __2020-12-26__: Finished Day 2 puzzle of 2019
 - __2020-12-25__: Finished Day 1 puzzle of 2019 and Reorganized repository
 - __2020-12-24__: Finished Day 22 Part 2 puzzle of 2020
