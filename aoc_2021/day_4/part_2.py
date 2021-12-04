@@ -97,7 +97,8 @@ def __is_complete(board: Board) -> None:
                 break
 
 
-def play_bingo(drawn_numbers_str, boards_str):
+def play_bingo(instructions: List[str]):
+    drawn_numbers_str, boards_str = instructions[0], instructions[1:]
     drawn_numbers = [int(number) for number in drawn_numbers_str.split(",")]
     boards = [
         Board(board_id, board_str) for board_id, board_str in enumerate(boards_str, 1)
@@ -130,5 +131,5 @@ if __name__ == "__main__":
 
     drawn_numbers, boards_str = instructions[0], instructions[1:]
 
-    result = play_bingo(drawn_numbers, boards_str)
+    result = play_bingo(instructions)
     print(result)

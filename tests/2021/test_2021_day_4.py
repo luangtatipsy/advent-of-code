@@ -21,7 +21,7 @@ instructions = """7,4,9,5,11,17,23,2,0,14,21,24,10,16,13,6,15,25,12,22,18,20,8,1
 22 11 13  6  5
  2  0 12  3  7"""
 
-instructions = [
+list_of_instructions = [
     instruction.strip()
     for instruction in instructions.split("\n\n")
     if instruction.strip() != ""
@@ -29,8 +29,9 @@ instructions = [
 
 
 def test_part_1_solution():
-    assert part_1_solution(instructions[0], instructions[1:]) == 4512
+
+    assert part_1_solution(list_of_instructions) == 4512
 
 
 def test_part_2_solution():
-    assert part_2_solution(instructions[0], instructions[1:]) == 1924
+    assert part_2_solution(list_of_instructions) == 1924
