@@ -1,4 +1,7 @@
-def count_increased_measurements(depths):
+from typing import List
+
+
+def count_increased_measurements(depths: List[int]) -> int:
     current_depth = depths[0]
     counter = 0
 

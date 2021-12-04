@@ -1,7 +1,10 @@
-def dive(instructions):
-    instructions = [instruction.split(" ") for instruction in instructions]
+from typing import List
+
+
+def dive(instructions: List[str]) -> int:
+    formatted_instructions = [instruction.split(" ") for instruction in instructions]
     x, y, aim = 0, 0, 0
-    for direction, depth in instructions:
+    for direction, depth in formatted_instructions:
         depth = int(depth)
         if direction == "forward":
             x += depth

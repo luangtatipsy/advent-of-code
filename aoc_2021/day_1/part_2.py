@@ -1,4 +1,7 @@
-def count_three_measurement_sliding_window(depths):
+from typing import List
+
+
+def count_three_measurement_sliding_window(depths: List[int]) -> int:
     measurements = []
     length = len(depths)
 
