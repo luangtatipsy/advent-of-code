@@ -33,8 +33,8 @@ python -m pytest --cache-clear --cov=./aoc_{2019,2020,2021} --cov-report=xml tes
 | Day 2  |      |      |      |      | 🌟 🌟 | 🌟 🌟 | 🌟 🌟 |      |      |      |      |
 | Day 3  |      |      |      |      |      | 🌟 🌟 | 🌟 🌟 |      |      |      |      |
 | Day 4  |      |      |      |      |      | 🌟 🌟 | 🌟 🌟 |      |      |      |      |
-| Day 5  |      |      |      |      |      | 🌟 🌟 |      |      |      |      |      |
-| Day 6  |      |      |      |      |      | 🌟 🌟 |      |      |      |      |      |
+| Day 5  |      |      |      |      |      | 🌟 🌟 | 🌟 🌟 |      |      |      |      |
+| Day 6  |      |      |      |      |      | 🌟 🌟 | 🌟 🌟 |      |      |      |      |
 | Day 7  |      |      |      |      |      | 🌟 🌟 |      |      |      |      |      |
 | Day 8  |      |      |      |      |      | 🌟 🌟 |      |      |      |      |      |
 | Day 9  |      |      |      |      |      | 🌟 🌟 |      |      |      |      |      |
@@ -57,6 +57,7 @@ python -m pytest --cache-clear --cov=./aoc_{2019,2020,2021} --cov-report=xml tes
 
 
 ## Milestones
+- __2021-12-07__: Finished Day 6 puzzle of 2021 [[Day 6]](https://adventofcode.com/2021/day/6) 🔥
 - __2021-12-07__: Finished Day 5 puzzle of 2021 [[Day 5]](https://adventofcode.com/2021/day/5)
 - __2021-12-05__: Finished Day 4 puzzle of 2021 [[Day 4]](https://adventofcode.com/2021/day/4)
 - __2021-12-04__: Finished Day 3 puzzle of 2021 [[Day 3]](https://adventofcode.com/2021/day/3)
