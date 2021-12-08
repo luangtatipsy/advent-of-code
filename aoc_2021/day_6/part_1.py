@@ -38,7 +38,5 @@ if __name__ == "__main__":
             if internal_timer.strip() != ""
         ]
 
-    internal_timers = [3, 4, 3, 1, 2]
-
     result = grow(internal_timers)
     print(result)
