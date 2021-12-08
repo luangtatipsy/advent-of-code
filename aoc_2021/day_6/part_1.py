@@ -15,7 +15,7 @@ class Lanternfish:
             self.internal_timer = 6
 
 
-def grow(internal_timers: List[int]):
+def grow(internal_timers: List[int]) -> int:
     fishes = [Lanternfish(timer) for timer in internal_timers]
 
     for _ in range(80):

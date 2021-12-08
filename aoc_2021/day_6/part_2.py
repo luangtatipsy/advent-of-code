@@ -2,7 +2,7 @@ from collections import Counter
 from typing import List
 
 
-def grow(internal_timers: List[int]):
+def grow(internal_timers: List[int]) -> int:
     # the previous solution can not solve in part, in order to solve this part, it has to be implemented with dynamic programming.
     counter = Counter(internal_timers)
     current_fishes = [
