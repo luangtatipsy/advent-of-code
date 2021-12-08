@@ -57,6 +57,7 @@ python -m pytest --cache-clear --cov=./aoc_{2019,2020,2021} --cov-report=xml tes
 
 
 ## Milestones
+- __2021-12-09__: Finished Day 7 puzzle of 2021 [[Day 7]](https://adventofcode.com/2021/day/7)
 - __2021-12-07__: Finished Day 6 puzzle of 2021 [[Day 6]](https://adventofcode.com/2021/day/6) 🔥
 - __2021-12-07__: Finished Day 5 puzzle of 2021 [[Day 5]](https://adventofcode.com/2021/day/5)
 - __2021-12-05__: Finished Day 4 puzzle of 2021 [[Day 4]](https://adventofcode.com/2021/day/4)
