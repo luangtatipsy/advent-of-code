@@ -41,7 +41,7 @@ python -m pytest --cache-clear --cov=./aoc_{2019,2020,2021} --cov-report=xml tes
 | Day 10 |      |      |      |      |      | 🌟 🌟 | 🌟 🌟 |      |      |      |      |
 | Day 11 |      |      |      |      |      | 🌟 🌟 | 🌟 🌟 |      |      |      |      |
 | Day 12 |      |      |      |      |      | 🌟 🌟 | 🌟 🌟 |      |      |      |      |
-| Day 13 |      |      |      |      |      | 🌟 🌟 |      |      |      |      |      |
+| Day 13 |      |      |      |      |      | 🌟 🌟 | 🌟 🌟 |      |      |      |      |
 | Day 14 |      |      |      |      |      |      |      |      |      |      |      |
 | Day 15 |      |      |      |      |      | 🌟 🌟 |      |      |      |      |      |
 | Day 16 |      |      |      |      |      | 🌟    |      |      |      |      |      |
@@ -57,6 +57,7 @@ python -m pytest --cache-clear --cov=./aoc_{2019,2020,2021} --cov-report=xml tes
 
 
 ## Milestones
+- __2021-12-20__: Finished Day 13 puzzle of 2021 [[Day 13]](https://adventofcode.com/2021/day/13) 🔥🔥🔥
 - __2021-12-19__: Finished Day 12 puzzle of 2021 [[Day 12]](https://adventofcode.com/2021/day/12) 🔥🔥🔥
 - __2021-12-19__: Finished Day 11 puzzle of 2021 [[Day 11]](https://adventofcode.com/2021/day/11) 🔥
 - __2021-12-19__: Finished Day 10 puzzle of 2021 [[Day 10]](https://adventofcode.com/2021/day/10)
