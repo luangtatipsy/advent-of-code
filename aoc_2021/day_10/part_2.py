@@ -1,5 +1,4 @@
 from collections import deque
-from os import close
 from typing import List
 
 SYNTAX_PAIR = {")": "(", "]": "[", "}": "{", ">": "<"}
