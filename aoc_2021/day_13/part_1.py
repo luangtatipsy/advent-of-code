@@ -1,6 +1,5 @@
-from collections import defaultdict
 from io import UnsupportedOperation
-from typing import Dict, List, Set, Tuple, Union
+from typing import Dict, List, Set, Tuple
 
 
 def display(points: Set[Tuple[int, ...]]) -> None:
